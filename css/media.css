@@ -1,0 +1,303 @@
+@media (max-width: 1200px) {
+  .hero-row {
+    padding-top: 100px;
+    display: flex;
+  }
+  .cols-of-hero {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+  }
+  .Build {
+    height: auto;
+    padding-bottom: 50px;
+  }
+  .Build-cols {
+    margin: auto;
+  }
+  .Build-row {
+    flex-direction: column;
+  }
+  .Build-texts {
+    text-align: center;
+  }
+  .Build-title {
+    width: 100%;
+    color: var(--white);
+    font-family: var(--Livvic-font);
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .Build-cards {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+  }
+  .Build-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    column-gap: 23px;
+  }
+  .Build-card-text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 6px;
+    text-align: center;
+  }
+  .Build-card-title {
+    width: 100%;
+    color: var(--primariy-light);
+    font-family: var(--Livvic-font);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+  }
+  .Build-card-decs {
+    width: 100%;
+    color: var(--white);
+    font-family: var(--Livvic-font);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+  }
+  /* deliver-section */
+  .Delivering {
+    width: 100%;
+    height: auto;
+    background-color: var(--secondary-deep-color);
+    padding-top: 140px;
+    padding-bottom: 140px;
+  }
+  .container {
+  }
+  .Delivering-contant {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 92px;
+  }
+  .Delivering-title {
+    width: 100%;
+    color: var(--white);
+    text-align: center;
+    font-family: var(--Livvic-font);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+  }
+  .Delivering-title span {
+    color: var(--secondary-rapture);
+    font-family: var(--Livvic-font);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+  }
+  .Delivering-row {
+  }
+  .Delivering-cols {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Delivering-card {
+    max-width: 350px;
+    width: 100%;
+    height: 313px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .Delivering-card-decs {
+    width: 100%;
+    color: var(--white);
+    text-align: center;
+    font-family: var(--Livvic-font);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+  }
+  .Delivering-card-title {
+    width: 100%;
+    color: var(--secondary-rapture);
+    text-align: center;
+    font-family: var(--Livvic-font);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+  }
+  .Delivering-card-decss {
+    color: var(--white);
+    text-align: center;
+    font-family: var(--Livvic-font);
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 18px;
+  }
+  .Delivering-card-img {
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    border: 2px solid #c4fffe;
+  }
+}
+@media (max-width: 992px) {
+  .cols-of-hero {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .cols-of-hero1 {
+    max-width: 605px;
+    width: 100%;
+  }
+  .cols-of-hero2 {
+    max-width: 445px;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .hero-row {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .hero-line {
+    display: none;
+  }
+  .bar-icon {
+    color: var(--white);
+  }
+  .hero-title {
+    max-width: 100%;
+    width: 100%;
+    color: var(--white);
+    font-family: var(--Livvic-font);
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 80px;
+    text-align: center;
+    margin-bottom: 18px;
+  }
+  .hero-decs {
+    width: 445px;
+    color: var(--white);
+    font-family: var(--Livvic-font);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: center;
+  }
+  /* ready section */
+  .ready {
+    width: 100%;
+    height: auto;
+    background: #f67e7e;
+    padding: 76px 0;
+  }
+  .ready-title {
+    width: 100%;
+    color: var(--secondary-sacramento);
+    font-family: var(--Livvic-font);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+  }
+  .ready-btn {
+    max-width: 200px;
+  }
+  .col-ready2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .col-ready1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* footer */
+  .footer {
+    width: 100%;
+    height: auto;
+    background-color: var(--secondary-dark);
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .cols-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-logos {
+    width: 160px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .footer-os-logo {
+    width: 160px;
+    height: 40px;
+  }
+  .footer-links {
+    color: var(--white);
+    font-family: var(--Livvic-font);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+  }
+
+  .footer-link {
+    color: var(--white);
+    font-family: var(--Livvic-font);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    opacity: 0.6;
+  }
+  .footer-hold-icon {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+  .footer-icons {
+    display: flex;
+    column-gap: 11px;
+  }
+  .footer-icon {
+    width: 24px;
+    height: 20px;
+    color: var(--white);
+  }
+  .footer-desc {
+    width: 255px;
+    color: var(--white);
+    text-align: right;
+    font-family: var(--Livvic-font);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    opacity: 0.6;
+  }
+  .col2-footer {
+    justify-content: end;
+  }
+  .col1-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+}
